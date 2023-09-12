@@ -1,0 +1,163 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: darkred;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    flex-shrink: 3;
+}
+
+
+.links {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    width: 2000px;
+    justify-content: flex-end;
+}
+
+.telfer {
+    display: flex;
+    min-width: 200px;
+}
+
+.button1 {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+} 
+
+.top {
+    background-color: darkred;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+.left {
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+p {
+    color: lightgray;
+}
+
+button {
+    border-radius: 20px;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: darkred;
+    border-color: white;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 400px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 200px;
+    padding-top: 50px;
+    width: 200px;
+    height: 150px;
+}
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 5px 5px lightgray;
+}
+
+.photo {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.info {
+    max-width: 250px;
+}
+
+.third {
+    background-color: lightgray;
+    padding: 75px;
+}
+
+.quote {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.quoted {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    background-color: darkred;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.enrollbutton {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+
